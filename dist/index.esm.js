@@ -1853,7 +1853,7 @@ var Icon$L = function (props) {
 
 var Icon$M = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React.createElement("path", { d: "M9.99998 19V14H14V19C14 19.55 14.45 20 15 20H18C18.55 20 19 19.55 19 19V12H20.7C21.16 12 21.38 11.43 21.03 11.13L12.67 3.59997C12.29 3.25997 11.71 3.25997 11.33 3.59997L2.96998 11.13C2.62998 11.43 2.83998 12 3.29998 12H4.99998V19C4.99998 19.55 5.44998 20 5.99998 20H8.99998C9.54998 20 9.99998 19.55 9.99998 19Z" })));
+        React.createElement("path", { d: "M180.471 1253.75L182.078 1254.94C182.55 1254.3 182.601 1253.45 182.209 1252.76C181.816 1252.07 181.054 1251.68 180.265 1251.76L180.471 1253.75ZM173.187 1241L174.794 1242.19C175.266 1241.55 175.317 1240.7 174.924 1240.01C174.532 1239.32 173.769 1238.93 172.981 1239.01L173.187 1241ZM180.265 1251.76C180.059 1251.78 179.85 1251.79 179.636 1251.79V1255.79C179.987 1255.79 180.334 1255.77 180.677 1255.74L180.265 1251.76ZM179.636 1251.79C176.311 1251.79 173.615 1249.1 173.615 1245.77H169.615C169.615 1251.3 174.102 1255.79 179.636 1255.79V1251.79ZM173.615 1245.77C173.615 1244.43 174.053 1243.19 174.794 1242.19L171.58 1239.81C170.346 1241.48 169.615 1243.54 169.615 1245.77H173.615ZM168 1248.98C168 1245.87 170.363 1243.3 173.392 1242.99L172.981 1239.01C167.934 1239.53 164 1243.79 164 1248.98H168ZM174.021 1255C170.696 1255 168 1252.3 168 1248.98H164C164 1254.51 168.487 1259 174.021 1259V1255ZM178.864 1252.56C177.764 1254.04 176.004 1255 174.021 1255V1259C177.325 1259 180.256 1257.4 182.078 1254.94L178.864 1252.56Z" })));
 };
 
 var Icon$N = function (props) {
@@ -2862,10 +2862,10 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#201B3D", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#201B3D", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
@@ -2888,7 +2888,7 @@ var light$1 = (_a$2 = {},
         // boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
         boxShadow: "0px 20px 20px rgba(0, 0, 0, 0.1);",
         boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-        color: "#FFFFFF",
+        color: "#4E3BE9",
     },
     _a$2[SECONDARY] = {
         background: "transparent",

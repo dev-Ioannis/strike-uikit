@@ -13,7 +13,7 @@ export const light: ButtonTheme = {
     // boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
     boxShadow: "0px 20px 20px rgba(0, 0, 0, 0.1);",
     boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-    color: "#FFFFFF",
+    color: "#4E3BE9",
   },
   [SECONDARY]: {
     background: "transparent",
